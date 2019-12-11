@@ -10,24 +10,24 @@ _set_local_scriptname "$BASH_SOURCE"
 # Welcome screen info sections
 _bf_show_hostname="1"
 _bf_show_kernel="1"
-_bf_show_distro="1"
+_bf_show_distro=""
 _bf_show_ext_ip="1"
-_bf_show_ssh_status="1"
-_bf_show_diskstats="1"
+_bf_show_ssh_status=""
+_bf_show_diskstats=""
 _bf_show_cpuram="1"
 _bf_show_lastlogins=""
 _bf_show_aliases=""
-_bf_show_random_cmdinfo="1"
-_bf_show_fortune="1"
+_bf_show_random_cmdinfo=""
+_bf_show_fortune=""
 
 
 # Start screen bling bling
 _bf_figlet_on="1"
-_bf_lolcat_on=
+_bf_lolcat_on="1"
 
 
 # Prompt config
-_bf_prompt_reboot_info="1"
+_bf_prompt_reboot_info="0"
 
 
 

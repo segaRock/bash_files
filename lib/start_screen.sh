@@ -76,7 +76,7 @@ _print_kernel()
 {
     # Check for uname and retrieve kernel and architecture
     if [[ -x $(which uname) ]]; then
-        local SYS_INFO="$(uname -srmo)"
+        local SYS_INFO="$(uname -srm)"
 
         printf "${BETTER_YELLOW}"
         _print_centered_string "$SYS_INFO"
@@ -105,7 +105,7 @@ _print_distro()
 
 _print_ext_ip()
 {
-    printf "${BETTER_GREY}"
+    printf "${GREEN}"
     _print_centered_string "External IP: $_bf_ext_ip"
 }
 
